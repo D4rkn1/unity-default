@@ -5,6 +5,7 @@ namespace D4
         public static string[] defaultPackages = {
             "https://github.com/D4rkn1/nvim-unity.git",
             "com.unity.inputsystem",
+            "com.unity.test-framework",
             "com.unity.addressables",
         };
 
