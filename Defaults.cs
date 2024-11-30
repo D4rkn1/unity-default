@@ -35,8 +35,8 @@ namespace D4
 
         private static async void InitPackages()
         {
-            await AddDefaultPackages();
             await RemoveDefaultPackages();
+            await AddDefaultPackages();
         }
 
         private static async Task AddDefaultPackages()
